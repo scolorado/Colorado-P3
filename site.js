@@ -34,9 +34,10 @@ const vue_app = Vue.createApp({
             // This holds your movies.json data.
             movies: [],
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
-            var title = ref("IMDB + Sofia's Top 8 Movies");
-            var owner = ref("Sofia");
-            var github = "https://github.com/scolorado/Colorado-P3";
+            //const title = ref("IMDB + Sofia's Top 8 Movies");
+            title:"IMDB + Sofia's Top 8 Movies";
+            const owner = ref("Sofia");
+            const github = "https://github.com/scolorado/Colorado-P3";
          
       }
     },
