@@ -36,7 +36,7 @@ const vue_app = Vue.createApp({
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
             var title = ref("IMDB + Sofia's Top 8 Movies");
             var owner = ref("Sofia");
-            var github = ;
+            var github = "https://github.com/scolorado/Colorado-P3";
          
       }
     },
