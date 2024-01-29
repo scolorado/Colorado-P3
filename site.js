@@ -33,9 +33,10 @@ const vue_app = Vue.createApp({
         // This holds your movies.json data.
         movies: [],
         /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
+        trueMonths: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
         Title: "IMDB + Sofia's Top 8 Movies",
-        owner: "Sofia",
-        github: "https://github.com/scolorado/Colorado-P3"
+        owner: " Sofia Colorado",
+        github: "https://github.com/scolorado/Colorado-P3",
      
   }
 },
@@ -43,11 +44,30 @@ const vue_app = Vue.createApp({
         /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
         getMonthText(dateArray) {
             var year = dateArray[0];
+            var month = this.trueMonths[dateArray[1] - 1];
             var day = dateArray[2];
             return month + ' ' + day + ', ' + year;
-        }
+        },
 
-
+        like(index){
+            this.movies[index].likes++;
+        },
+        dislike(index){
+            this.movies[index].dislikes++;
+        },
+        posterClick(index){
+            if(this.movies[index].posterindex < this.movies[index].posters.length) {
+                  this.movies[index].posterindex++;
+            };
+            if(this.movies[index].posterindex >= this.movies[index].posters.length) {
+                  this.movies[index].posterindex = 0;
+            }
+        },
+        timeText(minutes){
+            var hours = Math.floor(minutes/60);
+            var minute = minutes % 60;
+            return hours + ' hours ' + minute + ' minutes';
+        },
   }
 })
 
