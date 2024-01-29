@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Barbie",
+            "iscore": 6.9,
+            "rating": "PG-13",
+            "runtime": 114,
+            "released": [2023, 7, 21],
+            "country": "USA",
+            "posters": ["img/barbie.jpg", "img/barbie2.webp"],
+            "imdb": "https://www.imdb.com/title/tt1517268/",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 998,
+            "dislikes": 626,
+            "posterindex": 0
+      },
+      {
+            "title": "Schindler's List",
+            "iscore": 8.9,
+            "rating": "R",
+            "runtime": 195,
+            "released": [1993, 11, 30],
+            "country": "USA",
+            "posters": ["img/schindlerslist.jpg"],
+            "imdb": "http://www.imdb.com/title/tt0108052",
+            "website": "https://www.barbie-themovie.com/",
+            "likes": 998,
+            "dislikes": 626,
+            "posterindex": 0
+      },
+      {
+            "title": "Schindler's List",
+            "iscore": 8.9,
+            "rating": "R",
+            "runtime": 195,
+            "released": [1993, 11, 30],
+            "country": "USA",
+            "posters": ["img/schindlerslist.jpg"],
+            "imdb": "http://www.imdb.com/title/tt0108052",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
       }
 ]
