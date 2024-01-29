@@ -84,17 +84,17 @@
             "posterindex": 0
       },
       {
-            "title": "Schindler's List",
-            "iscore": 8.9,
-            "rating": "R",
+            "title": "Pride & Prejudice",
+            "iscore": 7.8,
+            "rating": "PG",
             "runtime": 195,
-            "released": [1993, 11, 30],
+            "released": [2005, 11, 11],
             "country": "USA",
-            "posters": ["img/schindlerslist.jpg"],
-            "imdb": "http://www.imdb.com/title/tt0108052",
-            "website": "https://www.barbie-themovie.com/",
-            "likes": 998,
-            "dislikes": 626,
+            "posters": ["img/pride.jpg", "img/pride2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0414387/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_pride%2520and",
+            "website": "https://www.focusfeatures.com/pride_and_prejudice",
+            "likes": 325,
+            "dislikes": 190,
             "posterindex": 0
       },
       {
