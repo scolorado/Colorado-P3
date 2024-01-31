@@ -98,17 +98,17 @@
             "posterindex": 0
       },
       {
-            "title": "Schindler's List",
-            "iscore": 8.9,
-            "rating": "R",
-            "runtime": 195,
-            "released": [1993, 11, 30],
+            "title": "Little Women",
+            "iscore": 7.8,
+            "rating": "PG",
+            "runtime": 135,
+            "released": [2019, 12, 25],
             "country": "USA",
-            "posters": ["img/schindlerslist.jpg"],
-            "imdb": "http://www.imdb.com/title/tt0108052",
-            "website": "https://www.uphe.com/schindlers-list",
-            "likes": 812,
-            "dislikes": 101,
+            "posters": ["img/little.jpg", "img/little2.jpg", "img/little3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt3281548/",
+            "website": "https://www.sonypictures.com/movies/littlewomen",
+            "likes": 164,
+            "dislikes": 66,
             "posterindex": 0
       }
 ]
